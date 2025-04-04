@@ -1,0 +1,77 @@
+:root{
+        --bs-primary:#FF8800;
+        --bs-primary-rgb: 255, 136, 0;
+        --bs-secondary: #636363;
+        --bs-secondary-rgb: 113, 113, 113;
+        --bs-warning:#FF8800;
+        --bs-warning-rgb: 255, 136, 0;
+       
+}
+.lgbanner{
+    transform: rotate(10deg);
+  transition: transform 0.1s ease;
+}
+
+.texttitle{
+    letter-spacing: 0.4em;
+}
+.copyright{
+    font-size: 0.75em;
+}
+
+.option img:hover{
+    transform: scale(115%);
+    transition: 0.3s;
+}
+
+.nav-item{
+    font-size: 0.9em;
+}
+
+.social img:hover{
+    transform: scale(115%);
+    transition: 0.3s;
+}
+
+.signin{
+    color: white;
+    
+}
+.signin:hover{
+    color: var(--bs-primary);
+    transition: 0.3s;
+}
+
+.card-title{
+    text-shadow: 0 0 10px rgb(255, 196, 1), 0 0 15px rgb(255, 196, 1), 0 0 25px rgb(255, 196, 1);
+    animation: glow 0.8s infinite alternate;
+}
+@keyframes glow {
+    0% {
+      text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 5px rgb(255, 245, 62), 0 0 10px rgb(255, 245, 62), 0 0 20px rgb(255, 245, 62);
+    }
+  }
+
+  .navbar-nav .nav-item a .navbtn:hover{
+    color: #FF8800;
+}
+
+button:focus-visible,   
+input:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--bs-primary); 
+  outline-offset: 3px;
+} 
+
+html{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+@media screen and (min-width: 768px){
+    .photo{
+        border: 0;
+    }
+}

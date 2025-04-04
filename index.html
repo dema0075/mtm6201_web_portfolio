@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Prototype Main</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- header section  -->
+    <header>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+        <nav class="navbar navbar-expand-md bg-secondary" role="navigation" aria-label="Main navigation">
+            <div class="container-fluid" id="toplogo">
+                <a class="navbar-brand" href="./index.html" role="img" aria-label="Company Logo"><img
+                        src="./images/logo_mobile.png" alt="Company Logo"></a>
+                <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" role="none"><a class="nav-link text-light" href="./index.html"
+                                role="menuitem">HOME</a></li>
+                        <li class="nav-item" role="none"><a class="nav-link text-light" href="#"
+                                role="menuitem">STORE</a></li>
+                        <li class="nav-item" role="none"><a class="nav-link text-light" href="#"
+                                role="menuitem">GALLERY</a></li>
+                        <li class="nav-item" role="none"><a class="nav-link text-light" href="./about.html"
+                                role="menuitem">ABOUT</a></li>
+                        <li class="nav-item" role="none"><a class="nav-link text-light" href="./contact.html"
+                                role="menuitem">CONTACT</a></li>
+                    </ul>
+                    <div class="social text-light d-flex gap-2 d-none d-md-flex">
+                        <a href="" class="signin text-decoration-none text-light">
+                            <p>Sign In</p>
+                        </a>
+                        <a href=""><img src="./images/cart_icon.png" class="w-75" alt="cart"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_icon.png"
+                                class="w-75" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook_icon.png"
+                                class="w-75" alt="Facebook"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><img src="./images/whatsapp_icon.png"
+                                class="w-75" alt="Whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main role="main">
+        <!-- banner with slogan  -->
+        <div class="card text-bg-dark rounded-0  d-sm-block d-lg-none" role="banner">
+            <img src="./images/banner_mobile.jpg" class="card-img" alt="">
+            <div class="card-img-overlay bg-dark bg-opacity-75 border-0 p-5 align-content-center ">
+                <h1 class="h3 text-light">We Manufacture</h1>
+                <h2 class="card-title text-warning display-3 fw-light">the best stickers</h2>
+                <p class="card-text text-light">Our Domed labels are waterproof, rustproof… scratch, fade, salt, acid,
+                    oil, germ, chemical and UV resistant. The flexible urethane domed label will absorb impacts instead
+                    of denting or
+                    scratching for a permanently glossy, 3D dome.</p>
+                <button class="btn btn-light px-5 py-2 me-2 border-0" role="button">Details</button>
+                <button class="btn btn-warning px-5  py-2 border-0 bg-primary" role="button">Start Order</button>
+            </div>
+        </div>
+        <div class="card mb-3 border-0 d-none d-lg-block" role="banner">
+            <div class="row">
+                <div class="col-5 p-5">
+                    <h2 class="h3 text-dark">We Manufacture</h2>
+                    <h2 class="card-title text-warning display-5 fw-light">the best stickers</h2>
+                    <p class="card-text">Our Domed labels are waterproof, rustproof… scratch, fade, salt, acid,
+                        oil, germ, chemical and UV resistant. The flexible urethane domed label will absorb impacts
+                        instead
+                        of denting or scratching for a permanently glossy, 3D dome.</p>
+                    <button class="btn btn-secondary bg-opacity-10 py-2 me-2 border-0" role="button">Details</button>
+                    <button class="btn btn-warning px-5  py-2 border-0 bg-primary" role="button">Start Order</button>
+                </div>
+                <div class="card-body col-5 m-5">
+                    <img src="./images/banner_main.jpg" class="lgbanner img-fluid rounded-4" alt="#">
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- shapes and format  -->
+        <section>
+            <div class="shapes bg-dark bg-opacity-50 mt-3 py-3 position-relative">
+                <img class="col-12 d-block d-md-none position-absolute" src="./images/dome.png" alt="">
+                <img class="col-12 d-none d-md-block position-absolute" src="./images/dome_lg.png" alt="">
+                <div class="container">
+                    <div class="option d-flex row justify-content-md-center pt-4">
+                        <h3
+                            class="text-center align-content-center fs-3 p-4 text-dark fw-light col-6 col-md-12 d-sm-block d-md-none">
+                            STICKERS CREATED IN DIFFERENT SHAPES</h3>
+                        <h3
+                            class="texttitle text-md-center text-dark fw-light  col-12 d-none d-md-block fs-5 d-lg-block fs-4 z-0 ">
+                            STICKERS CREATED IN DIFFERENT SHAPES</h3>
+                        <img src="./images/circle.png" class="col-6 col-md-2 flex-fill" alt="circle shape">
+                        <img src="./images/oval.png" class="col-6 col-md-2 flex-fill" alt="oval shape">
+                        <img src="./images/square.png" class="col-6 col-md-2 flex-fill" alt="square shape">
+                        <img src="./images/rectangle.png" class="col-6 col-md-2 flex-fill" alt="rectangle shape">
+                        <img src="./images/custom.png" class="col-6 col-md-2 flex-fill" alt="custom shape">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product kinds  -->
+        <section class="products pt-3" id="content" role="region" aria-labelledby="products-title">
+            <h2 id="products-title"
+                class="text-warning border-bottom border-3 pb-3 fw-medium text-center text-md-start ps-md-4 display-3 border-light-subtle m-lg-4 fs-1">
+                Our Products
+            </h2>
+            <div class="text-secondary" role="article">
+                <div class="bg-white p-3 pb-4 d-lg-flex align-items-center">
+                    <div class="typeinfo p-2 col-lg-6 px-lg-5">
+                        <h3>DOMED STICKERS</h3>
+                        <P class="fw-lighter">Manufactured in different shapes, sizes and materials, this product has
+                            countless uses, due
+                            to its great resistance and durability. Use in vehicles, furniture, equipment, promotional,
+                            security, etc.
+                        </P>
+                    </div>
+                    <div class="typepics row gx-3 col-lg-6">
+                        <img src="./images/stickers1.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/stickers2.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/stickers3.png" class="d-none d-md-block col-md-4 " alt="example image">
+                    </div>
+                </div>
+                <div class="bg-body-tertiary p-3 pb-4 d-lg-flex align-items-center" role="article">
+                    <div class="typeinfo col-lg-6 px-lg-5">
+                        <h3>KEYCHAINS</h3>
+                        <P class="fw-lighter">Our keychains are manufactured in different shapes and sizes, they are
+                            flexible and very
+                            eye-catching, an excellent promotional item for your business or company.
+                        </P>
+                    </div>
+
+                    <div class="typepics row gx-3 col-lg-6">
+                        <img src="./images/keychain1.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/keychain2.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/keychain3.png" class="d-none d-md-block col-md-4 " alt="example image">
+                    </div>
+                </div>
+                <div class="bg-white p-3 pb-4 d-lg-flex align-items-center" role="article">
+                    <div class="typeinfo p-2 col-lg-6 px-lg-5">
+                        <h3>UTV DECALS</h3>
+                        <P class="fw-lighter">We manufacture all the signs for Can Am Maverick X3, Maverick R and
+                            Maverick R-Max 2 and 4
+                            door
+                            models.
+                        </P>
+                    </div>
+                    <div class="typepics row gx-3 col-lg-6">
+                        <img src="./images/utv1.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/utv2.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/utv3.png" class="d-none d-md-block col-md-4 " alt="example image">
+                    </div>
+                </div>
+                <div class="bg-body-tertiary p-3 pb-4 d-lg-flex align-items-center" role="article">
+                    <div class="typeinfo col-lg-6 px-lg-5">
+                        <h3>BOAT AND YACHTS DECALS</h3>
+                        <P class="fw-lighter">Boat names, license plates, decals for boats names and boat engine brands
+                            and signage.
+                        </P>
+                    </div>
+                    <div class="typepics row gx-3 col-lg-6">
+                        <img src="./images/boats1.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/boats2.png" class="col-6 col-md-4" alt="example image">
+                        <img src="./images/boats3.png" class="d-none d-md-block col-md-4 " alt="example image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="social d-flex flex-row justify-content-center align-items-center mt-3 mb-3 d-md-none">
+            <h3 class="pe-3 pt-1 display-6 text-secondary">Follow Us</h3>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_icon.png" class="pe-3"
+                    alt="instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook_icon.png" class="pe-3"
+                    alt="facebook"></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="./images/whatsapp_icon.png" class="pe-3"
+                    alt="whatsapp"></a>
+        </div>
+    </main>
+
+    <!-- footer info and links  -->
+    <footer class="bg-secondary text-light" role="contentinfo">
+
+        <div class="links">
+            <div class="d-flex row ps-5 pt-md-5 pt-lg-4 d-lg-flex flex-lg-row px-4 justify-content-lg-between ">
+                <div
+                    class="col-12 d-flex justify-content-center py-3 col-md-4 pe-md-5 pb-md-5 col-lg-12 pb-lg-3 justify-content-lg-start py-lg-0">
+                    <a href="#toplogo" role="link"><img src="./images/logo_mobile.png" alt="Logo Imgage"></a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 ps-lg-3 d-flex align-md-baseline">
+                    <ul class="lh-2 list-unstyled">
+                        <li>Address</li>
+                        <li class="fw-lighter">1385 Woodroffe Ave,</li>
+                        <li class="fw-lighter">Ottawa, ON K2G 1V8</li>
+                        <li>Call Us</li>
+                        <li class="fw-lighter">1-800-555-6677</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-md-baseline">
+                    <ul class="lh-2 list-unstyled">
+                        <li>Get Started</li>
+                        <li class="fw-lighter">Order Now</li>
+                        <li class="fw-lighter">Custom Samples</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-md-baseline ">
+                    <ul class="lh-2 list-unstyled">
+                        <li>Product</li>
+                        <li class="fw-lighter">Example Gallery</li>
+                        <li class="fw-lighter">Uses</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-md-baseline ">
+                    <ul class="lh-2 list-unstyled">
+                        <li>Company</li>
+                        <li class="fw-lighter">About Us</li>
+                        <li class="fw-lighter">Contact</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex align-md-baseline ">
+                    <ul class="lh-2 list-unstyled">
+                        <li>Resources</li>
+                        <li class="fw-lighter">Ordering Options</li>
+                        <li class="fw-lighter">Order Process</li>
+                        <li class="fw-lighter">File Preparation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- social copyrights and media icons  -->
+        <div class="copyright">
+            <div class="d-flex row ms-lg-3">
+                <div class="social d-none d-md-block d-md-flex justify-content-md-center pb-3 col-lg-3 order-lg-1">
+                    <a href=""><img src="./images/cart_icon.png" class="p-1" alt="cart"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_icon.png"
+                            class="p-1" alt="instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook_icon.png"
+                            class="p-1" alt="facebook"></a>
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="./images/whatsapp_icon.png"
+                            class="p-1" alt="whatsapp"></a>
+                </div>
+                <div class="d-lg-flex col-lg-9 order-lg-0 text-md-center p-md-0 align-self-lg-end">
+                    <p class="fw-light text-center m-md-0 text-lg-start">&copy; 2025 Stickers Factory. All rights
+                        reserved.</p>
+                    <p><span class="d-none d-md-block"> Privacy Policy | Terms & Conditions | Shipping & Returns</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
